@@ -1,0 +1,19 @@
+{
+  "name": "chrome-extension",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "George Bockari <bitwhys@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "prettier": "^2.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
